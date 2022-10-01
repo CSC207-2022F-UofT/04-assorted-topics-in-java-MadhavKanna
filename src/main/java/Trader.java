@@ -39,7 +39,9 @@ public class Trader<T> {
      *       representing the Trader's money. Give the Trader
      *       empty ArrayLists for their inventory and wishlist.
      */
-
+    public Trader(int money){
+        this.money = money;
+    }
 
 
 
